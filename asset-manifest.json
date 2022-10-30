@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/url-shorten-react-frontend/static/css/main.038cd884.css",
+    "main.js": "/url-shorten-react-frontend/static/js/main.a58047b6.js",
+    "static/js/787.08c1dde5.chunk.js": "/url-shorten-react-frontend/static/js/787.08c1dde5.chunk.js",
+    "index.html": "/url-shorten-react-frontend/index.html",
+    "main.038cd884.css.map": "/url-shorten-react-frontend/static/css/main.038cd884.css.map",
+    "main.a58047b6.js.map": "/url-shorten-react-frontend/static/js/main.a58047b6.js.map",
+    "787.08c1dde5.chunk.js.map": "/url-shorten-react-frontend/static/js/787.08c1dde5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.038cd884.css",
+    "static/js/main.a58047b6.js"
+  ]
+}
