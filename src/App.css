@@ -1,6 +1,115 @@
+:root{
+  background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
 }
 
+/* Positioning for the input, button, and results*/
+.mainFocus{
+  margin-top: 25vh;
+  
+}
 
 
+/* Results: displays after response received */
+.results{
+  padding: 10vh;
+}
+
+/*Copy text tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltiptext {
+  visibility: hidden; 
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+input{
+  border: 1px solid rgb(233, 239, 209);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 1.6;
+  padding: 2px;
+  width: 33vw;
+}
+
+input:focus{
+  border: 2px solid hsl(204, 99%, 49%);
+
+}
+/* Buttons */
+
+button {
+  background-color: transparent;
+  border: 2px solid rgb(233, 239, 209);
+  border-radius: 4px;
+  color: rgb(240, 242, 249);
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 1.6;
+  padding: 4px;
+  text-transform: none;
+  margin-left: 1em;
+}
+
+button:hover{
+  background-color: rgba(187, 187, 187, 0.3);
+  cursor: pointer;
+}
+
+/* Input field */
+
+/* Footer */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  justify-content: center;
+}
+
+footer i{
+  font-size: 3em;
+}
