@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import "../App.css"
-const BASE_URL = process.env.REACT_APP_BASE_URL 
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:8000"
 
 const Short = () => {
     //Main component to shorten a url
