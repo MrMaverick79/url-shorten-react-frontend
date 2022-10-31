@@ -8,12 +8,12 @@
 
 ## About
 
-shrt.Url is a url shortening app using a React based front end and a Node/ Express back end. Results are stored thourgh MongoDB.
+shrt.Url is a url shortening app using a React based front end and a Node/ Express back end. Results are stored through MongoDB.
 
 
 ## Features
 
  - Easily shorten and copy urls.
  - Previously shortened urls are stored in the back end and retrieved so that new ones do not need to be generated.
-- Simple Reach front end
+- Simple React front end
 - Clear and shorten as many urls as needed.
